@@ -1,0 +1,59 @@
+\documentclass[10.5pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[margin=2.2cm,top=2.4cm,bottom=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array,calc}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={$title$},pdfauthor={$author$},pdfsubject={$subtitle$},pdfcreator={UnderInk article build},pdfproducer={UnderInk article build}}
+\special{pdf:docinfo<</Producer (UnderInk article build)/Creator (UnderInk article build)>>}
+$if(polyglossia-lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$polyglossia-lang$}
+$endif$
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{6pt}
+\linespread{1.08}
+\setlist{itemsep=2pt,topsep=2pt}
+\captionsetup{font=small,labelfont=bf,labelsep=colon,justification=raggedright,singlelinecheck=false}
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{14pt}{4pt}
+\titlespacing*{\subsection}{0pt}{10pt}{2pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small $running$}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\definecolor{shadecolor}{HTML}{F3F2F7}
+$highlighting-macros$
+\renewenvironment{Shaded}{\begin{snugshade}\small}{\end{snugshade}}
+\usepackage{framed}
+\newenvironment{abstractbox}{\par\vspace{2pt}\hrule\vspace{8pt}\small\leftskip=1.2em\rightskip=1.2em}{\par\vspace{6pt}\hrule\vspace{6pt}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\LARGE\bfseries $title$\par}
+\vspace{4pt}
+{\large $subtitle$\par}
+\vspace{10pt}
+{\normalsize $author$\par}
+\vspace{2pt}
+{\small $contact$\par}
+$if(repo)$
+\vspace{2pt}
+{\small \href{https://$repo$}{$repo$}\par}
+$endif$
+\vspace{2pt}
+{\small $date$\par}
+\end{center}
+\vspace{4pt}
+$body$
+\end{document}

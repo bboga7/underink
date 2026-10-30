@@ -1,0 +1,101 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 313 >>
+stream
+BT /F1 20 Tf 72 760 Td <50726F6A656374808182205265706F7274202D2051332053756D6D617279> Tj ET
+BT /F1 12 Tf 72 720 Td (This quarter we shipped three releases.) Tj ET
+BT /F1 12 Tf 72 700 Td <5468616E6B7320746F20746865207465616D838485868788898A87888B83868C8D8983858D8E878C8F8E8386858D8990859189908A8A87868B882E> Tj ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /FirstChar 32 /LastChar 255 /Widths [278 278 355 556 556 889 667 191 333 333 389 584 278 333 278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 584 556 1015 667 667 722 722 667 611 778 722 278 500 667 556 833 722 778 667 778 722 667 611 722 667 944 667 667 611 278 278 278 469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 833 556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] /ToUnicode 6 0 R >>
+endobj
+6 0 obj
+<< /Length 945 >>
+stream
+/CIDInit /ProcSet findresource begin 12 dict begin begincmap
+/CIDSystemInfo << /Registry (Adobe) /Ordering (UCS) /Supplement 0 >> def
+/CMapName /Adobe-Identity-UCS def /CMapType 2 def
+1 begincodespacerange <00> <FF> endcodespacerange
+47 beginbfchar
+<80> <200B>
+<81> <200D>
+<82> <2060>
+<83> <DB40DC69>
+<84> <DB40DC67>
+<85> <DB40DC6E>
+<86> <DB40DC6F>
+<87> <DB40DC72>
+<88> <DB40DC65>
+<89> <DB40DC20>
+<8A> <DB40DC70>
+<8B> <DB40DC76>
+<8C> <DB40DC75>
+<8D> <DB40DC73>
+<8E> <DB40DC74>
+<8F> <DB40DC63>
+<90> <DB40DC61>
+<91> <DB40DC64>
+<51> <0051>
+<79> <0079>
+<6F> <006F>
+<50> <0050>
+<53> <0053>
+<52> <0052>
+<65> <0065>
+<6A> <006A>
+<2D> <002D>
+<6D> <006D>
+<72> <0072>
+<70> <0070>
+<61> <0061>
+<33> <0033>
+<74> <0074>
+<63> <0063>
+<75> <0075>
+<20> <0020>
+<54> <0054>
+<6B> <006B>
+<6E> <006E>
+<2E> <002E>
+<77> <0077>
+<6C> <006C>
+<73> <0073>
+<64> <0064>
+<69> <0069>
+<71> <0071>
+<68> <0068>
+endbfchar
+endcmap CMapName currentdict /CMap defineresource pop end end
+
+endstream
+endobj
+7 0 obj
+<< /Title (Unicode smuggling sample) /Author (UnderInk sample) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000611 00000 n 
+0000001375 00000 n 
+0000002371 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+2452
+%%EOF

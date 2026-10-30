@@ -1,0 +1,28 @@
+{
+  "name": "underink",
+  "version": "0.5.1",
+  "description": "Find hidden text in PDFs (white text, tiny fonts, off-page text, invisible Unicode). Runs in the browser. No server, no API, no AI.",
+  "license": "GPL-3.0-only",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "samples": "python3 tools/make_samples.py && python3 tools/make_attack_samples.py",
+    "build": "node tools/build.mjs",
+    "test": "node tests/run.mjs",
+    "test:http": "node tests/run.mjs --http",
+    "test:realworld": "node tests/realworld.mjs",
+    "test:article": "python3 tools/make_article_docs.py && node tests/article.mjs"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "6.4.299",
+    "playwright": "1.64.1"
+  },
+  "keywords": [
+    "pdf",
+    "prompt-injection",
+    "security",
+    "privacy",
+    "hidden-text",
+    "offline"
+  ]
+}
